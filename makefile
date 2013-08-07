@@ -1,23 +1,27 @@
 DEPS := $(wildcard cards/*)
+LIBRARY=build/library.lbr
 
-.PHONY: test all change edit unpack tools
+.PHONY: test all change edit unpack tools clean
 
-all: build/library.lbr
+all: ${LIBRARY}
 
-build/library.lbr: $(DEPS)
+${LIBRARY}: $(DEPS)
 	@mkdir -p build
-	librator cards/ build/library.lbr
+	librator cards/ ${LIBRARY}
 
-test: build/library.lbr
+test: ${LIBRARY}
 	greencard $<
 
-edit: build/library.lbr
+edit: ${LIBRARY}
 	curator $<
 
-unpack: build/library.lbr
+unpack: ${LIBRARY}
 	librator -u cards/ $<
 
 change: edit unpack
 
 tools:
 	pip install -r requirements.txt
+
+clean:
+	rm ${LIBRARY}
