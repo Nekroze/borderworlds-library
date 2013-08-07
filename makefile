@@ -1,5 +1,6 @@
 DEPS := $(wildcard cards/*)
-LIBRARY=build/library.lbr
+BUILDDIR=build/
+LIBRARY=${BUILDDIR}library.lbr
 TESTDIR=test
 
 .PHONY: test all change edit unpack tools clean
@@ -7,7 +8,7 @@ TESTDIR=test
 all: ${LIBRARY}
 
 ${LIBRARY}: $(DEPS)
-	@mkdir -p $(dir ${LIBRARY})
+	@mkdir -p ${BUILDDIR}
 	librator cards/ ${LIBRARY}
 
 test: ${LIBRARY}
@@ -25,4 +26,4 @@ tools:
 	pip install -r requirements.txt
 
 clean:
-	rm ${LIBRARY}
+	rm -rf ${BUILDDIR}
