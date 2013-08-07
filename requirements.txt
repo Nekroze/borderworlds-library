@@ -2,3 +2,4 @@ librarian>=0.2.7
 greencard>=0.2.3
 librator>=0.1.5
 librarian-curator>=0.1.2
+flake8>=2.0
