@@ -3,7 +3,7 @@ BUILDDIR=build/
 LIBRARY=${BUILDDIR}library.lbr
 TESTDIR=test
 
-.PHONY: test all change edit unpack tools clean
+.PHONY: test all change edit unpack tools clean style check
 
 all: ${LIBRARY}
 
@@ -27,3 +27,8 @@ tools:
 
 clean:
 	rm -rf ${BUILDDIR}
+
+style:
+	flake8 test/
+
+check: test style
