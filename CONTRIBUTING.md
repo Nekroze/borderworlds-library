@@ -46,7 +46,7 @@ for review and, if accepted, implementation.
     ``$ git checkout -b name-of-your-bugfix-or-feature``
 
 Now you can make your changes locally, for more guidance on this see
-[Making Changes](##Making-Changes).
+[Making Changes](#making-changes).
 
 4. When you're done making changes, check that your changes pass all tests.
 
@@ -83,7 +83,7 @@ error by calling:
 ``make test``
 
 The rest is history, no realy it was already explained a little further up in
-the steps for [Getting Started!](##Getting-Started!)
+the steps for [Getting Started!](#setting-started!)
 
 ## Pull Request Guidelines
 
