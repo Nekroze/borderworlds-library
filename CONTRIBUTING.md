@@ -38,26 +38,26 @@ development allowing you to make your own changes and then publicly submit them
 for review and, if accepted, implementation.
 
 1. Fork the `borderworlds-library` repo on GitHub.
-2. Clone your fork locally::
+2. Clone your fork locally.
 
-    $ git clone git@github.com:your_name_here/borderworlds-library.git
-    $ cd borderworlds-library/
+    ``$ git clone git@github.com:your_name_here/borderworlds-library.git``
+    ``$ cd borderworlds-library/``
 
-4. Create a branch for local development::
+4. Create a branch for local development.
 
-    $ git checkout -b name-of-your-bugfix-or-feature
+    ``$ git checkout -b name-of-your-bugfix-or-feature``
 
 Now you can make your changes locally.
 
-5. When you're done making changes, check that your changes pass all tests::
+5. When you're done making changes, check that your changes pass all tests.
 
-    $ make test
+    ``$ make test``
 
-6. Commit your changes and push your branch to GitHub::
+6. Commit your changes and push your branch to GitHub.
 
-    $ git add .
-    $ git commit -m "Your detailed description of your changes."
-    $ git push origin name-of-your-bugfix-or-feature
+    ``$ git add .``
+    ``$ git commit -m "Your detailed description of your changes."``
+    ``$ git push origin name-of-your-bugfix-or-feature``
 
 7. Submit a pull request through the GitHub website.
 
