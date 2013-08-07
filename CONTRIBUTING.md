@@ -37,28 +37,28 @@ for review and, if accepted, implementation.
 1. Fork the `borderworlds-library` repo on GitHub.
 2. Clone your fork locally.
 
-    ``$ git clone git@github.com:your_name_here/borderworlds-library.git``
+    $ git clone git@github.com:your_name_here/borderworlds-library.git
 
-    ``$ cd borderworlds-library/``
+    $ cd borderworlds-library/
 
 3. Create a branch for local development.
 
-    ``$ git checkout -b name-of-your-bugfix-or-feature``
+    $ git checkout -b name-of-your-bugfix-or-feature
 
 Now you can make your changes locally, for more guidance on this see
 [Making Changes](#making-changes).
 
 4. When you're done making changes, check that your changes pass all tests.
 
-    ``$ make test``
+    $ make test
 
 5. Commit your changes and push your branch to GitHub.
 
-    ``$ git add .``
+    $ git add .
     
-    ``$ git commit -m "Your detailed description of your changes."``
+    $ git commit -m "Your detailed description of your changes."
     
-    ``$ git push origin name-of-your-bugfix-or-feature``
+    $ git push origin name-of-your-bugfix-or-feature
 
 6. Submit a pull request through the GitHub website.
 
@@ -67,7 +67,7 @@ Now you can make your changes locally, for more guidance on this see
 Once you have your own fork of the library you should install the tools
 required/recommended for manipulating the library.
 
-    ``$ make tools``
+    $ make tools
     
 This will install the `curator` tool for editing compiled libraries,
 `librator` for packing and unpacking card files into a library and `greencard`
@@ -75,12 +75,12 @@ which will allow you to test the changes you made yourself.
 
 Then in order to make a change, just issue:
 
-    ``$ make change``
+    $ make change
 
 Once you are completed you can test your changes to see if they work without
 error by calling:
 
-    ``$ make test``
+    $ make test
 
 The rest is history, no realy it was already explained a little further up in
 the steps to [Get Started!](#get-started)
