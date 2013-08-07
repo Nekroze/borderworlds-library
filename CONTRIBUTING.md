@@ -44,19 +44,17 @@ for review and, if accepted, implementation.
 
     ``$ cd borderworlds-library/``
 
-4. Create a branch for local development.
+3. Create a branch for local development.
 
     ``$ git checkout -b name-of-your-bugfix-or-feature``
 
-Now you can make your changes locally. The best way to make changes is to
-install curator via ``pip install librarian-curator`` then use the command
-``make change`` in the library repository and the rest will be handled for you.
+Now you can make your changes locally.
 
-5. When you're done making changes, check that your changes pass all tests.
+4. When you're done making changes, check that your changes pass all tests.
 
     ``$ make test``
 
-6. Commit your changes and push your branch to GitHub.
+5. Commit your changes and push your branch to GitHub.
 
     ``$ git add .``
     
@@ -64,7 +62,27 @@ install curator via ``pip install librarian-curator`` then use the command
     
     ``$ git push origin name-of-your-bugfix-or-feature``
 
-7. Submit a pull request through the GitHub website.
+6. Submit a pull request through the GitHub website.
+
+Making Changes
+--------------
+
+Once you have your own fork of the library you should install the tools
+required/recommended for manipulating the library.
+
+    ``$ make tools``
+    
+This will install the `curator` tool for editing compiled libraries,
+`librator` for packing and unpacking card files into a library and `greencard`
+which will allow you to test the changes you made yourself.
+
+Then in order to make a change, just issue ``make change``!
+
+Once you are completed you can test your changes to see if they work without
+error by calling ``make test`` that easy.
+
+The rest is history, no realy it was already explained a little further up in
+the steps for getting started!
 
 Pull Request Guidelines
 -----------------------
