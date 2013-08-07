@@ -90,15 +90,15 @@ name.
 For example to test if a card has a name longer then 3 characters the following
 would be saved in `test/name/length.py`:
 
-    ```python
-    import greencard
+```python
+import greencard
     
     
-    @greencard.test
-    def name_length(card):
-        """Ensure length of a cards name is at least 3 characters long."""
-        assert len(card.name) >= 3
-    ```
+@greencard.test
+def name_length(card):
+    """Ensure length of a cards name is at least 3 characters long."""
+    assert len(card.name) >= 3
+```
         
 The docstring is important to include as it makes it much easier to see what
 each test does at a glance. The final line, beggining with `assert` is where
