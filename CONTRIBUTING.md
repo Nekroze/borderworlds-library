@@ -41,6 +41,7 @@ for review and, if accepted, implementation.
 2. Clone your fork locally.
 
     ``$ git clone git@github.com:your_name_here/borderworlds-library.git``
+
     ``$ cd borderworlds-library/``
 
 4. Create a branch for local development.
@@ -56,7 +57,9 @@ Now you can make your changes locally.
 6. Commit your changes and push your branch to GitHub.
 
     ``$ git add .``
+    
     ``$ git commit -m "Your detailed description of your changes."``
+    
     ``$ git push origin name-of-your-bugfix-or-feature``
 
 7. Submit a pull request through the GitHub website.
