@@ -1,16 +1,17 @@
 DEPS := $(wildcard cards/*)
 LIBRARY=build/library.lbr
+TESTDIR=test
 
 .PHONY: test all change edit unpack tools clean
 
 all: ${LIBRARY}
 
 ${LIBRARY}: $(DEPS)
-	@mkdir -p build
+	@mkdir -p $(dir ${LIBRARY})
 	librator cards/ ${LIBRARY}
 
 test: ${LIBRARY}
-	greencard $< -t test
+	greencard $< -t ${TESTDIR}
 
 edit: ${LIBRARY}
 	curator $<
