@@ -75,12 +75,12 @@ which will allow you to test the changes you made yourself.
 
 Then in order to make a change, just issue:
 
-``make change``
+    ``$ make change``
 
 Once you are completed you can test your changes to see if they work without
 error by calling:
 
-``make test``
+    ``$ make test``
 
 The rest is history, no realy it was already explained a little further up in
 the steps for [Getting Started!](#setting-started!)
