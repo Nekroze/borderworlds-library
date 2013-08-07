@@ -126,6 +126,7 @@ Before you submit a pull request, check that it meets these guidelines:
 
 [1]: https://github.com/Nekroze/borderworlds-library/issues
 [2]: https://travis-ci.org/Nekroze/borderworlds-library/pull_requests
+[3]: http://python.org/
 [10]: https://pypi.python.org/pypi/librarian-curator
 [11]: https://pypi.python.org/pypi/librator
 [12]: https://pypi.python.org/pypi/greencard
