@@ -1,6 +1,6 @@
 DEPS := $(wildcard cards/*)
 
-.PHONY: test
+.PHONY: test all change
 
 all: build/library.lbr
 
@@ -10,3 +10,7 @@ build/library.lbr: $(DEPS)
 
 test: build/library.lbr
 	greencard $<
+
+change: build/library.lbr
+	curator $<
+	librator -u cards/ $<
