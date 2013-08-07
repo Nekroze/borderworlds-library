@@ -83,7 +83,7 @@ error by calling:
     ``$ make test``
 
 The rest is history, no realy it was already explained a little further up in
-the steps for [Getting Started!](#setting-started!)
+the steps to [Get Started!](#get-started)
 
 ## Pull Request Guidelines
 
