@@ -1,6 +1,6 @@
 DEPS := $(wildcard cards/*)
 
-.PHONY: test all change edit unpack
+.PHONY: test all change edit unpack tools
 
 all: build/library.lbr
 
@@ -18,3 +18,6 @@ unpack: build/library.lbr
 	librator -u cards/ $<
 
 change: edit unpack
+
+tools:
+	pip install -r requirements.txt
