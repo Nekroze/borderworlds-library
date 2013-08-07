@@ -1,13 +1,11 @@
-Contributing
-============
+# Contributing
 
 Contributions are welcome, and they are greatly appreciated! Every
 little bit helps, and credit will always be given. 
 
 You can contribute in many ways:
 
-Types of Contributions
-----------------------
+## Types of Contributions
 
 ### Report Bugs
 
@@ -30,8 +28,7 @@ https://github.com/Nekroze/borderworlds-library/issues.
 * Remember that this is a volunteer-driven project, and that contributions
   are welcome :)
 
-Get Started!
-------------
+## Get Started!
 
 Ready to contribute? Here's how to set up the `borderworlds-library` for local
 development allowing you to make your own changes and then publicly submit them
@@ -48,7 +45,8 @@ for review and, if accepted, implementation.
 
     ``$ git checkout -b name-of-your-bugfix-or-feature``
 
-Now you can make your changes locally.
+Now you can make your changes locally, for more guidance on this see
+[Making Changes](##Making Changes).
 
 4. When you're done making changes, check that your changes pass all tests.
 
@@ -64,8 +62,7 @@ Now you can make your changes locally.
 
 6. Submit a pull request through the GitHub website.
 
-Making Changes
---------------
+## Making Changes
 
 Once you have your own fork of the library you should install the tools
 required/recommended for manipulating the library.
@@ -82,10 +79,9 @@ Once you are completed you can test your changes to see if they work without
 error by calling ``make test`` that easy.
 
 The rest is history, no realy it was already explained a little further up in
-the steps for getting started!
+the steps for [Getting Started!](##Getting Started!)
 
-Pull Request Guidelines
------------------------
+## Pull Request Guidelines
 
 Before you submit a pull request, check that it meets these guidelines:
 
