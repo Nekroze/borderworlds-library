@@ -48,7 +48,9 @@ for review and, if accepted, implementation.
 
     ``$ git checkout -b name-of-your-bugfix-or-feature``
 
-Now you can make your changes locally.
+Now you can make your changes locally. The best way to make changes is to
+install curator via ``pip install librarian-curator`` then use the command
+``make change`` in the library repository and the rest will be handled for you.
 
 5. When you're done making changes, check that your changes pass all tests.
 
