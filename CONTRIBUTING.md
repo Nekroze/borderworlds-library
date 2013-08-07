@@ -6,9 +6,12 @@ little bit helps, and credit will always be given.
 The following guide assumes you have some form of a posix environment
 installed. If you do not perhaps you should look into install a linux os like
 [Ubuntu][4] or if you must keep windows attempt to use [Cygwin][5] or even
-[MSYS][6]. Besides having a posix based environment to work in we also make
-the assumption you have both [Python][3] and [Pip][7] installed. So if you are
-missing any of these please install them now or contact [Nekroze][100]
+[MSYS][6]. 
+
+Besides having a posix based environment to work in we also make
+the assumption you have both [Python][3], [Pip][7] and of cause [Git][8] installed. So if you are
+missing any of these please install them now or contact [Nekroze][100] for
+assistance in setting this all up.
 
 You can contribute in many ways:
 
@@ -138,6 +141,7 @@ Before you submit a pull request, check that it meets these guidelines:
 [5]: http://www.cygwin.com/
 [6]: http://www.mingw.org/wiki/MSYS
 [7]: http://pypi.python.org/pypi/pip
+[8]: http://git-scm.com/
 [10]: http://pypi.python.org/pypi/librarian-curator
 [11]: http://pypi.python.org/pypi/librator
 [12]: http://pypi.python.org/pypi/greencard
