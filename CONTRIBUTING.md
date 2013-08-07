@@ -66,8 +66,8 @@ required/recommended for manipulating the library.
 
     $ make tools
     
-This will install the [curator][10] tool for editing compiled libraries,
-[librator][11] for packing and unpacking card files into a library and [greencard][12]
+This will install the [Curator][10] tool for editing compiled libraries,
+[Librator][11] for packing and unpacking card files into a library and [GreenCard][12]
 which will allow you to test the changes you made yourself.
 
 
@@ -77,13 +77,13 @@ Then in order to make/edit/remove a card, just issue:
 
     $ make change
 
-This will construct the library and start up [curator][10] and then once
-[curator][10] is closed all changes will be commit to card files.
+This will construct the library and start up [Curator][10] and then once
+closed all changes will be commit to card files.
 
 ### Test Contributions
 
 In order to make a new test, it has to be written in [Python][3] using the
-[greencard][12] card testing framework and stored in the `test/attribute`
+[GreenCard][12] card testing framework and stored in the `test/attribute`
 directory where `attribute` is whatever part of the card you are testing, ie.
 name.
 
