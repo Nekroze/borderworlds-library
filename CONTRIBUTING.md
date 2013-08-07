@@ -3,6 +3,13 @@
 Contributions are welcome, and they are greatly appreciated! Every
 little bit helps, and credit will always be given. 
 
+The following guide assumes you have some form of a posix environment
+installed. If you do not perhaps you should look into install a linux os like
+[Ubuntu][4] or if you must keep windows attempt to use [Cygwin][5] or even
+[MSYS][6]. Besides having a posix based environment to work in we also make
+the assumption you have both [Python][3] and [Pip][7] installed. So if you are
+missing any of these please install them now or contact [Nekroze][100]
+
 You can contribute in many ways:
 
 ## Types of Contributions
@@ -124,9 +131,14 @@ Before you submit a pull request, check that it meets these guidelines:
    [Continuous Integration Tests][2]. Check and make sure that the tests pass
    for all cards.
 
-[1]: https://github.com/Nekroze/borderworlds-library/issues
-[2]: https://travis-ci.org/Nekroze/borderworlds-library/pull_requests
+[1]: http://github.com/Nekroze/borderworlds-library/issues
+[2]: http://travis-ci.org/Nekroze/borderworlds-library/pull_requests
 [3]: http://python.org/
-[10]: https://pypi.python.org/pypi/librarian-curator
-[11]: https://pypi.python.org/pypi/librator
-[12]: https://pypi.python.org/pypi/greencard
+[4]: http://www.ubuntu.com/
+[5]: http://www.cygwin.com/
+[6]: http://www.mingw.org/wiki/MSYS
+[7]: http://pypi.python.org/pypi/pip
+[10]: http://pypi.python.org/pypi/librarian-curator
+[11]: http://pypi.python.org/pypi/librator
+[12]: http://pypi.python.org/pypi/greencard
+[100]: http://github.com/Nekroze
