@@ -1,3 +1,4 @@
+librarian>=0.2.7
 greencard>=0.2.2
 librator>=0.1.5
 librarian-curator>=0.1.2
