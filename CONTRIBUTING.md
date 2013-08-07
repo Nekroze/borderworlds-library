@@ -46,7 +46,7 @@ for review and, if accepted, implementation.
     ``$ git checkout -b name-of-your-bugfix-or-feature``
 
 Now you can make your changes locally, for more guidance on this see
-[Making Changes](##Making Changes).
+[Making Changes](##Making-Changes).
 
 4. When you're done making changes, check that your changes pass all tests.
 
@@ -73,13 +73,17 @@ This will install the `curator` tool for editing compiled libraries,
 `librator` for packing and unpacking card files into a library and `greencard`
 which will allow you to test the changes you made yourself.
 
-Then in order to make a change, just issue ``make change``!
+Then in order to make a change, just issue:
+
+``make change``
 
 Once you are completed you can test your changes to see if they work without
-error by calling ``make test`` that easy.
+error by calling:
+
+``make test``
 
 The rest is history, no realy it was already explained a little further up in
-the steps for [Getting Started!](##Getting Started!)
+the steps for [Getting Started!](##Getting-Started!)
 
 ## Pull Request Guidelines
 
