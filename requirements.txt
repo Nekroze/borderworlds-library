@@ -1,2 +1,2 @@
-greencard>=0.2.1
+greencard>=0.2.2
 librator>=0.1.5
