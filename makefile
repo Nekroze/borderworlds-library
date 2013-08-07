@@ -10,7 +10,7 @@ ${LIBRARY}: $(DEPS)
 	librator cards/ ${LIBRARY}
 
 test: ${LIBRARY}
-	greencard $<
+	greencard $< -t test
 
 edit: ${LIBRARY}
 	curator $<
