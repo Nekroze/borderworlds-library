@@ -22,7 +22,7 @@ unpack: ${LIBRARY}
 
 change: edit unpack
 
-tools:
+tools: deps
 	pip install -r tools.txt
 
 deps:
