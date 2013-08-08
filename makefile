@@ -37,4 +37,4 @@ style:
 check: style test
 
 wipe: clean
-	rm cards/*.crd
+	rm -f cards/*.crd
