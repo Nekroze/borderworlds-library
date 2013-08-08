@@ -54,12 +54,12 @@ for review and, if accepted, implementation.
 
         $ git checkout -b name-of-your-bugfix-or-feature
 
-Now you can make your changes locally, for more guidance on this see
-[Making Changes](#making-changes).
+   Now you can make your changes locally, for more guidance on this see
+   [Making Changes](#making-changes).
 
 4. When you're done making changes, check that your changes pass all tests.
 
-        $ make test
+        $ make check
 
 5. Commit your changes and push your branch to GitHub.
 
@@ -119,9 +119,9 @@ then or equal to 3.
 ### Testing Your Contributions
 
 Once you are completed you can test your changes to see if they work without
-error by calling:
+error and are in line with style guides by calling:
 
-    $ make test
+    $ make check
 
 The rest is history, no realy it was already explained a little further up in
 the steps to [Get Started!](#get-started)
