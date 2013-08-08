@@ -80,6 +80,7 @@ This will install the [Curator][10] tool for editing compiled libraries,
 [Librator][11] for packing and unpacking card files into a library and [GreenCard][12]
 which will allow you to test the changes you made yourself.
 
+If you are not sure what to do check out the [ToDo List](TODO.md).
 
 ### Card Contributions
 
