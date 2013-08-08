@@ -3,7 +3,7 @@ BUILDDIR=build/
 LIBRARY=${BUILDDIR}library.lbr
 TESTDIR=test
 
-.PHONY: test all change edit unpack tools clean style check
+.PHONY: test all change edit unpack tools clean style check deps
 
 all: ${LIBRARY}
 
@@ -24,6 +24,9 @@ change: edit unpack
 
 tools:
 	pip install -r tools.txt
+
+deps:
+	pip install -r requirements.txt
 
 clean:
 	rm -rf ${BUILDDIR}
