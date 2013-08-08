@@ -23,7 +23,7 @@ unpack: ${LIBRARY}
 change: edit unpack
 
 tools:
-	pip install -r requirements.txt
+	pip install -r tools.txt
 
 clean:
 	rm -rf ${BUILDDIR}
