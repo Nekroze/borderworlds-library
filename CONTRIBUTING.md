@@ -9,9 +9,9 @@ installed. If you do not perhaps you should look into install a linux os like
 [MSYS][6]. 
 
 Besides having a posix based environment to work in we also make
-the assumption you have both [Python][3], [Pip][7] and of cause [Git][8] installed. So if you are
-missing any of these please install them now or contact [Nekroze][100] for
-assistance in setting this all up.
+the assumption you have both [Python][3], [Pip][7] and of course [Git][8]
+installed. So if you are missing any of these please install them now or
+contact [Nekroze][100] for assistance in setting this all up.
 
 You can contribute in many ways:
 
