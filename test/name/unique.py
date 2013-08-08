@@ -12,5 +12,5 @@ def name_unique(library):
         if len(result):
             print("The following have duplicate names.")
             for code in result:
-                print("    {0}".format(code))
+                print("    {0}".format(code[0]))
             assert False
