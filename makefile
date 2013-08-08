@@ -3,7 +3,7 @@ BUILDDIR=build/
 LIBRARY=${BUILDDIR}library.lbr
 TESTDIR=test
 
-.PHONY: test all change edit unpack tools clean style check deps
+.PHONY: test all change edit unpack tools clean style check deps wipe
 
 all: ${LIBRARY}
 
@@ -35,3 +35,6 @@ style:
 	flake8 test/
 
 check: style test
+
+wipe: clean
+	rm cards/*.crd
