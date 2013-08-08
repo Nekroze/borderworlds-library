@@ -3,7 +3,10 @@ import greencard
 
 @greencard.library
 def name_unique(library):
-    """Check that card names are unique."""
+    """
+    Check that card names are unique by checking the libraries underlying
+    SQLite database.
+    """
     with library.connection() as lcon:
         result = lcon.execute("""SELECT code, name FROM CARDS WHERE name IN (
         SELECT name FROM CARDS GROUP BY name HAVING (COUNT(name ) > 1)
