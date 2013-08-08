@@ -31,4 +31,4 @@ clean:
 style:
 	flake8 test/
 
-check: test style
+check: style test
