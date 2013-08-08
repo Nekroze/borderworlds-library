@@ -1,11 +1,11 @@
 import greencard
 
 
-NAMES = []
+NAMES = set()
 
 
 @greencard.test
 def name_unique(card):
     """Check that each card has a unique name."""
-    NAMES.append(card.name)
-    assert card.name not in NAMES[:-1]
+    assert card.name not in NAMES
+    NAMES.add(card.name)
