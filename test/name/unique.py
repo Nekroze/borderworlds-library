@@ -1,11 +1,16 @@
 import greencard
 
 
-NAMES = set()
+@greencard.library
+def name_unique(library):
+    """Check that card names are unique."""
+    with library.connection() as lcon:
+        result = lcon.execute("""SELECT code FROM CARDS WHERE name IN (
+        SELECT name FROM CARDS GROUP BY name HAVING (COUNT(name ) > 1)
+        )""").fetchall()
 
-
-@greencard.test
-def name_unique(card):
-    """Check that each card has a unique name."""
-    assert card.name not in NAMES
-    NAMES.add(card.name)
+        if len(result):
+            print("The following have duplicate names.")
+            for code in result:
+                print("    {0}".format(code))
+            assert False
