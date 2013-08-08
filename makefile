@@ -23,10 +23,10 @@ unpack: ${LIBRARY}
 change: edit unpack
 
 tools: deps
-	pip install -r tools.txt
+	pip install --upgrade -r tools.txt
 
 deps:
-	pip install -r requirements.txt
+	pip install --upgrade -r requirements.txt
 
 clean:
 	rm -rf ${BUILDDIR}
